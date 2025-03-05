@@ -24,7 +24,7 @@ function displayTasks() {
       <span onclick="toggleCompletion(${index})" class="task-text ${task.completed ? 'completed' : ''}">
         ${task.text}
       </span>
-      <button class="btn btn-dark btn-sm" onclick="removeTask(${index})">√</button>
+      <button class="btn btn-sm" onclick="removeTask(${index})">√</button>
     `;
     
     taskList.appendChild(li);

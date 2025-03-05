@@ -1,22 +1,83 @@
+/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;  /* Light background */
   }
   
   #taskInput {
     border-radius: 10px;
+    padding: 15px;
   }
   
   #addTaskBtn, #clearTaskBtn {
     border-radius: 10px;
+    padding: 12px;
+  }
+  
+  h1 {
+    color: #007bff;  /* Primary color */
+  }
+  
+  #taskCounter {
+    font-weight: bold;
+    color: #343a40;  /* Darker text for counter */
+  }
+  
+  /* Task List Styling */
+  #taskList li {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #ffffff;  /* White background for task items */
   }
   
   .completed {
     text-decoration: line-through;
-    color: grey;
+    color: #6c757d;  /* Grey color for completed tasks */
   }
   
-  #taskList li {
-    border-radius: 8px;
-    margin-bottom: 8px;
+  button {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  /* Button Color Themes */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  /* Hover Effects */
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  /* Task Item Button Styling */
+  .btn-sm {
+    background-color: #343a40;
+    color: white;
+    border: none;
+  }
+  
+  .btn-sm:hover {
+    background-color: #6c757d;
   }
   
