@@ -2,7 +2,7 @@
 let tasks = [];
 
 // Add an event listener to add tasks to the add task btn
-document.getElementById("addTaskBtn").addEventListener("click", function () {
+document.getElementByI                                                                                                                                                                                                                                                                                              d("addTaskBtn").addEventListener("click", function () {
   // Storing text value from input box as a variable 'taskInput'
   let taskInput = document.getElementById("taskInput").value;
 
